@@ -29,3 +29,12 @@ mess = 'The Spartans came to Rome!'
 encoded = caesar_encode(mess, 7)
 decoded = caesar_encode(encoded, -7)
 print('\r\nEncoded Message:\r\n%s\r\nDecoded Message:\r\n%s\r\n' % (encoded, decoded))
+
+""" Output:
+
+Encoded Message:
+MaX LiTkmTgl VTfX mh KhfX!
+Decoded Message:
+The Spartans came to Rome!
+
+"""
